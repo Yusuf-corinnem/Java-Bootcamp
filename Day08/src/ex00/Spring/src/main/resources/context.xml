@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id = "preProcessorToUpperImpl" class = "edu.school21.model.implementations.PreProcessorToUpperImpl"> </bean>
+    <bean id = "rendererErrImpl" class = "edu.school21.model.implementations.RendererErrImpl">
+        <constructor-arg ref = "preProcessorToUpperImpl"/>
+    </bean>
+
+    <bean id = "printerWithPrefix" class = "edu.school21.model.implementations.PrinterWithPrefixImpl">
+        <constructor-arg ref = "rendererErrImpl"/>
+    </bean>
+
+    <bean class="org.springframework.beans.factory.config.MethodInvokingFactoryBean">
+        <property name="targetObject" ref="printerWithPrefix"/>
+        <property name="targetMethod" value="setPrefix"/>
+        <property name="arguments">
+            <list>
+                <value>Prefix</value>
+            </list>
+        </property>
+    </bean>
+
+</beans>

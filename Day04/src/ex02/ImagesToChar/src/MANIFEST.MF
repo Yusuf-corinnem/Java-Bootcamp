@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Main-Class: edu.school21.printer.app.MainApp
+Class-Path: ../lib/jcommander-1.82.jar ../lib/JCDP-4.0.2.jar
