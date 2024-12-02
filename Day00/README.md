@@ -1,56 +1,6 @@
 # Day 00 – Java bootcamp
 ### Management structures and arrays
 
-*Takeaways: Today you will learn the basics of solving both trivial and more challenging business tasks using basic Java language constructs.*
-
-# Contents
-1. [Chapter I](#chapter-i) \
-	1.1. [Preamble](#preamble)
-2. [Chapter II](#chapter-ii) \
-	2.1. [General Rules](#general-rules)
-3. [Chapter III](#chapter-iii) \
-	3.1. [Rules of the Day](#rules-of-the-day)
-4. [Chapter IV](#chapter-iv) \
-	4.1. [Exercise 00 – Sum of Digits](#exercise-00-sum-of-digits)
-5. [Chapter V](#chapter-v) \
-	5.1. [Exercise 01 – Really Prime Number](#exercise-01-really-prime-number)
-6. [Chapter VI](#chapter-vi) \
-	6.1. [Exercise 02 – Endless Sequence (or not?)](#exercise-02-endless-sequence-or-not)
-7. [Chapter VII](#chapter-vii) \
-	7.1. [Exercise 03 – A Little Bit of Statistics](#exercise-03-a-little-bit-of-statistics)
-8. [Chapter VIII](#chapter-viii) \
-	8.1. [Exercise 04 – A Bit More of Statistics](#exercise-04-a-bit-more-of-statistics)
-9. [Chapter IX](#chapter-ix) \
-	9.1. [Exercise 05 – Schedule](#exercise-05-schedule)
-
-
-# Chapter I 
-### Preamble
-
-![java-man](misc/images/java-man.png)<br>
-Java Man, or *Homo erectus erectus*
-
-# Chapter II
-### General Rules
-- Use this page as your only reference. Do not listen to rumors and speculations about how to prepare your solution.
-- There is only one Java version for you, 1.8. Make sure you have the compiler and interpreter for this version installed on your machine.
-- You can use the IDE to write and debug the source code.
-- The code is more often read than written. Carefully read the [document](https://www.oracle.com/technetwork/java/codeconventions-150003.pdf) where code formatting rules are given. When performing any task, make sure you follow the generally accepted [Oracle Standards](https://www.oracle.com/java/technologies/javase/codeconventions-namingconventions.html).
-
-- Comments are not allowed in the source code of your solution. They make it difficult to read the code.
-- Be aware of the permissions of your files and directories.
-- Your solution must be in your GIT repository to be evaluated.
-- Your solutions will be evaluated by your fellow bootcampers.
-- You should not leave any files in your src directory other than those explicitly specified in the exercise instructions. It is recommended that you modify your .gitignore to avoid accidents.
-- If you need accurate output in your programs, it is forbidden to display precalculated output instead of running the exercise correctly.
-- Got a question? Ask your neighbor to the right. Otherwise, try your neighbor on the left.
-- Your reference guide: friends / Internet / Google. And one more thing. For every question you have, there's an answer on Stackoverflow. Learn how to ask questions properly.
-- Read the examples carefully. They may require things not otherwise specified in the subject.
-- Use "System.out" for output.
-- And may the Force be with you!
-- Never leave till tomorrow what you can do today ;)
-
-# Chapter III
 ###  Rules of the Day
 - User-defined methods and classes are prohibited for all tasks of the day, except for user-defined static functions and procedures in the main class file of the solution.
 - All tasks include a list of ALLOWED language constructs for the specific task.
@@ -61,7 +11,6 @@ Java Man, or *Homo erectus erectus*
 
 P.S. Some problems require a non-trivial approach due to the limitations mentioned above. These limitations will teach you how to find solutions for automating real business processes.
 
-# Chapter IV
 ### Exercise 00 – Sum of Digits
 
 |Exercise 00: Sum of Digits||
@@ -85,7 +34,6 @@ $ java Program
   42
 ```
 
-# Chapter V
 ### Exercise 01 – Really Prime Number
 
 |Exercise 01: Really Prime Number||
@@ -125,7 +73,6 @@ $ java Program
    Illegal Argument
 ```
 
-# Chapter VI
 ### Exercise 02 – Endless Sequence (or not?)
 
 |Exercise 02: Endless Sequence (or not?)||
@@ -160,7 +107,6 @@ $ java Program
    Count of coffee-request – 2
 ```
 
-# Chapter VII
 ### Exercise 03 – A Little Bit of Statistics
 Exercise 03: A Little Bit of Statistics ||
 ---|---
@@ -210,7 +156,6 @@ Week 3 ===>
 Week 4 ====>
 ```
 
-# Chapter VIII
 ### Exercise 04 – A Bit More of Statistics
 Exercise 04: A Bit More of Statistics ||
 ---|---
@@ -263,7 +208,6 @@ $ java Program
   D   A   S   W   L   K   O   T   E   R
 ```
 
-# Chapter IX
 ### Exercise 05 – Schedule
 
 Exercise 05: Schedule ||

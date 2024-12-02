@@ -1,58 +1,6 @@
 # Day 03 — Java bootcamp
 ### Threads
 
-*Takeaways: Today you will learn how to use basic multithreading mechanisms in Java.*
-
-💡 [Tap here](https://new.oprosso.net/p/4cb31ec3f47a4596bc758ea1861fb624) **to leave your feedback on the project**. It's anonymous and will help our team make your educational experience better. We recommend completing the survey immediately after the project.
-
-# Contents
-1. [Chapter I](#chapter-i) \
-  1.1. [Preamble](#preamble)
-2. [Chapter II](#chapter-ii) \
-  2.1 [General Rules](#general-rules)
-3. [Chapter III](#chapter-iii) \
-  3.1 [Exercise 00 — Egg, Hen... or Human?](#exercise-00-egg-hen-or-human)
-4. [Chapter IV](#chapter-iv) \
-  4.1 [Exercise 01 — Egg, Hen, Egg, Hen...](#exercise-01-egg-hen-egg-hen)
-5. [Chapter V](#chapter-v) \
-  5.1. [Exercise 02 — Real Multithreading](#exercise-02-real-multithreading)
-6. [Chapter VI](#chapter-vi) \
-  6.1. [Exercise 03 — Too Many Threads...](#exercise-03-too-many-threads)
-
-
-# Chapter I
-### Preamble
-- Every modern client/server application is based on threads.
-- Threads implement the concept of asynchronous operation, where several loosely coupled tasks are executed "in parallel".
-- Multithreading in client/server applications allows some tasks to run in the background so that the client does not have to wait for the server to respond. For example, when you enter your email address on a website, a page is immediately displayed informing you that the confirmation message has been sent to your email address, regardless of how long it takes to send the message to your email address in a parallel thread.
-
-- Each of your requests to a website is executed in a separate, independent thread on the server.
-- The behavior of threads is managed by the operating system and the processor.
-- Thread behavior is non-deterministic. You never know which thread will be running at any given time, even if you restart the same multithreaded code.
-- For tips on handling threads, see the Object class.
-- Threads are the most popular topic in junior interviews.
-
-# Chapter II
-### General Rules
-- Use this page as your only reference. Do not listen to rumors and speculations about how to prepare your solution.
-- There is only one Java version for you, 1.8. Make sure you have the compiler and interpreter for this version installed on your machine.
-- You can use the IDE to write and debug the source code.
-- The code is more often read than written. Carefully read the [document](https://www.oracle.com/technetwork/java/codeconventions-150003.pdf) where code formatting rules are given. When performing any task, make sure you follow the generally accepted [Oracle Standards](https://www.oracle.com/java/technologies/javase/codeconventions-namingconventions.html).
-
-- Comments are not allowed in the source code of your solution. They make it difficult to read the code.
-- Be aware of the permissions of your files and directories.
-- Your solution must be in your GIT repository to be evaluated.
-- Your solutions will be evaluated by your fellow bootcampers.
-- You should not leave any files in your src directory other than those explicitly specified in the exercise instructions. It is recommended that you modify your .gitignore to avoid accidents.
-- If you need accurate output in your programs, it is forbidden to display precalculated output instead of running the exercise correctly.
-- Got a question? Ask your neighbor to the right. Otherwise, try your neighbor on the left.
-- Your reference guide: friends / Internet / Google. And one more thing. For every question you have, there's an answer on Stackoverflow. Learn how to ask questions properly.
-- Read the examples carefully. They may require things not specified in the subject.
-- Use System.out for output.
-- And may the Force be with you!
-- Never leave for tomorrow what you can do today. ;)
-
-# Chapter III
 ### Exercise 00 — Egg, Hen... or Human?
 
 Exercise 00: Egg, Hen... or Human? ||
@@ -93,7 +41,6 @@ Human
 ```
 It means that the program outputs Human message 50 times, which main thread prints.
 
-# Chapter IV
 ### Exercise 01 — Egg, Hen, Egg, Hen...
 
 Exercise 00: Egg, Hen, Egg, Hen... ||
@@ -120,7 +67,6 @@ Hen
 **Note**:<br>
 To solve this task, we recommend to explore Producer-Consumer model operation principle.
 
-# Chapter V
 ### Exercise 02 — Real Multithreading
 
 Exercise 02: Real Multithreading ||
@@ -155,7 +101,6 @@ Sum by threads: 13
 - In the example above, the size of the last summary section used by the third thread is smaller than the others.
 - Threads can output the results of operations inconsistently.
 
-# Chapter VI
 ### Exercise 03 — Too Many Threads...
 
 Exercise 02: Too Many Threads... ||

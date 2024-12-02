@@ -1,66 +1,6 @@
 # Day 01 – Java bootcamp
 ### OOP/Collections
 
-*Takeaways: Today you will learn how to correctly model the operation of different collections and create a full-fledged money transfer application.*
-
-💡 [Tap here](https://new.oprosso.net/p/4cb31ec3f47a4596bc758ea1861fb624) **to leave your feedback on the project**. It's anonymous and will help our team make your educational experience better. We recommend completing the survey immediately after the project.
-
-# Contents
-1. [Chapter I](#chapter-i) \
-	1.1. [Preamble](#preamble)
-2. [Chapter II](#chapter-ii) \
-	2.1. [General Rules](#general-rules)
-3. [Chapter III](#chapter-iii) \
-	3.1. [Introduction to exercises](#introduction-to-exercises)
-4. [Chapter IV](#chapter-iv) \
-	4.1. [Exercise 00 – Models](#exercise-00-models)
-5. [Chapter V](#chapter-v) \
-	5.1. [Exercise 01 – ID Generator](#exercise-01-id-generator)
-6. [Chapter VI](#chapter-vi) \
-	6.1. [Exercise 02 – List of Users](#exercise-02-list-of-users)
-7. [Chapter VII](#chapter-vii) \
-	7.1. [Exercise 03 – List of Transactions](#exercise-03-list-of-transactions)
-8. [Chapter VIII](#chapter-viii) \
-	8.1. [Exercise 04 – Business Logic](#exercise-04-business-logic)
-9. [Chapter IX](#chapter-ix) \
-	9.1. [Exercise 05 – Menu](#exercise-05-menu)
-
-# Chapter I 
-### Preamble
-Domain modeling is the most challenging task in software development. Correct solution of this task ensures flexibility of the implemented system.
-Programming languages supporting the concept of object-oriented programming (OOP) allow to effectively divide business processes into logical components called classes.
-Each class must comply with SOLID principles:
-1.	Single responsibility principle: a class contains a single logically related functionality (a coffee machine cannot clean and monitor changes in the call stack; its purpose is to make coffee).
-2.	Open-closed principle: each class may provide an option to extend its functionality. However, such an extension should not require modification of the source class code.
-3.	Liskov substitution principle: derived classes only ADD to the functionality of a source class without modifying it.
-4.	Interface separation principle: There are many points (interfaces) that describe a logically related behavior. There is no such thing as a general-purpose interface.
-5.	Dependency inversion principle: a system must not depend on specific entities; all dependencies are based on abstractions (interfaces).
-
-Today you should focus on the first SOLID principle.
-
-![javanepunchman](misc/images/javanepunchman.png)
-
-# Chapter II
-### General Rules
-- Use this page as your only reference. Do not listen to rumors and speculations about how to prepare your solution.
-- There is only one Java version for you, 1.8. Make sure you have the compiler and interpreter for this version installed on your machine.
-- You can use the IDE to write and debug the source code.
-- The code is more often read than written. Carefully read the [document](https://www.oracle.com/technetwork/java/codeconventions-150003.pdf) where code formatting rules are given. When performing any task, make sure you follow the generally accepted [Oracle Standards](https://www.oracle.com/java/technologies/javase/codeconventions-namingconventions.html).
-
-- Comments are not allowed in the source code of your solution. They make it difficult to read the code.
-- Be aware of the permissions of your files and directories.
-- Your solution must be in your GIT repository to be evaluated.
-- Your solutions will be evaluated by your fellow bootcampers.
-- You should not leave any files in your src directory other than those explicitly specified in the exercise instructions. It is recommended that you modify your .gitignore to avoid accidents.
-- If you need accurate output in your programs, it is forbidden to display precalculated output instead of running the exercise correctly.
-- Got a question? Ask your neighbor to the right. Otherwise, try your neighbor on the left.
-- Your reference guide: other peers / Internet / Google. And one more thing. For every question you have, there's an answer on Stackoverflow. Learn how to ask questions properly.
-- Read the examples carefully. They may require things not specified in the subject.
-- Use System.out for output.
-- And may the Force be with you!
-- Never leave for tomorrow what you can do today ;)
-
-# Chapter III
 ### Introduction to exercises
 An internal money transfer system is an integral part of many business applications. 
 
@@ -79,7 +19,6 @@ Of course, in such a complex system, a transfer entry may be lost — it may not
 
 Below is a series of exercises that you can do one at a time to solve the task.
 
-# Chapter IV
 ### Exercise 00 — Models
 
 Exercise 00: Models ||
@@ -110,7 +49,6 @@ It is necessary to check the user's initial balance (it cannot be negative), as 
 
 An example of the use of such classes should be included in the Program file (creation, initialization, printing the object contents to a console). All data for class fields must be hard-coded in the Program.
 
-# Chapter V
 ### Exercise 01 – ID Generator
 
 Exercise 01: ID Generator||
@@ -139,7 +77,6 @@ public User(...) {
 }
 ```
 
-# Chapter VI
 ### Exercise 02 – List of Users
 
 Exercise 02: List of Users||
@@ -170,7 +107,6 @@ An example of using such classes is included in the program file (creating, init
 **Note**:<br>
 Nested `ArrayList<T>` Java class has the same structure. By modeling behavior of this class on your own, you will learn how to use mechanisms of this standard library class. 
 
-# Chapter VII
 ### Exercise 03 — List of Transactions
 
 Exercise 03: List of Transactions||
@@ -195,7 +131,6 @@ An example of use of such classes shall be contained in Program file (creation, 
 - A transaction must be added with a SINGLE operation (O(1)).
 - `LinkedList<T>` nested Java class has the same structure, a bidirectional linked list.
 
-# Chapter VIII
 ### Exercise 04 – Business Logic
 
 Exercise 04: Business Logic||
@@ -217,7 +152,6 @@ In case of an attempt to transfer the amount exceeding the user's remaining bala
 
 An example of using such classes is included in the program file (creation, initialization, printing object contents to a console).
 
-# Chapter IX
 ### Exercise 05 — Menu
 
 Exercise 05: Menu||

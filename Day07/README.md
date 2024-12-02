@@ -1,54 +1,6 @@
 # Day 07 — Java bootcamp
 ### Reflection
 
-*Takeaways: Today you will develop your own frameworks that use the reflection mechanism.*
-
-💡 [Tap here](https://new.oprosso.net/p/4cb31ec3f47a4596bc758ea1861fb624) **to leave your feedback on the project**. It's anonymous and will help our team make your educational experience better. We recommend completing the survey immediately after the project.
-
-# Contents
-1. [Chapter I](#chapter-i) \
-  1.1. [Preamble](#preamble)
-2. [Chapter II](#chapter-ii) \
-  2.1. [General Rules](#general-rules)
-3. [Chapter III](#chapter-iii) \
-  3.1. [Exercise 00 – Work with Classes](#exercise-00-work-with-classes)
-4. [Chapter IV](#chapter-iv) \
-  4.1. [Exercise 01 – Annotations – SOURCE](#exercise-01-annotations-source)
-5. [Chapter V](#chapter-v) \
-  5.1. [Exercise 02 – ORM](#exercise-02-orm)
-
-# Chapter I
-### Preamble
-Reflection is a powerful mechanism that ensures the operation of frameworks (such as Spring or Hibernate). Knowledge of Java Reflection API operation principles guarantees the correct use of various technologies for implementing corporate systems.
-
-Reflection tool enables to flexibly use class information during runtime, as well as dynamically change the state of objects without using this information in writing the source code.
-
-One of reflection capabilities is modifying private field values from outside. We may ask then whether this contradicts the encapsulation principle, and <br>
-the answer is no. :)
-
-![Time for reflection](misc/images/time_for_reflection.png)
-
-# Chapter II
-### General Rules
-- Use this page as your only reference. Do not listen to rumors and speculations about how to prepare your solution.
-- There is only one Java version for you, 1.8. Make sure you have the compiler and interpreter for this version installed on your machine.
-- You can use the IDE to write and debug the source code.
-- The code is more often read than written. Carefully read the [document](https://www.oracle.com/technetwork/java/codeconventions-150003.pdf) where code formatting rules are given. When performing any task, make sure you follow the generally accepted [Oracle Standards](https://www.oracle.com/java/technologies/javase/codeconventions-namingconventions.html).
-
-- Comments are not allowed in the source code of your solution. They make it difficult to read the code.
-- Be aware of the permissions of your files and directories.
-- Your solution must be in your GIT repository to be evaluated.
-- Your solutions will be evaluated by your fellow bootcampers.
-- You should not leave any files in your src directory other than those explicitly specified in the exercise instructions. It is recommended that you modify your .gitignore to avoid accidents.
-- If you need accurate output in your programs, it is forbidden to display precalculated output instead of running the exercise correctly.
-- Got a question? Ask your neighbor to the right. Otherwise, try your neighbor on the left.
-- Your reference guide: peers / Internet / Google. And one more thing. For every question you have, there's an answer on Stackoverflow. Learn how to ask questions properly.
-- Read the examples carefully. They may require things not specified in the subject.
-- Use System.out for output.
-- And may the Force be with you!
-- Never leave till tomorrow what you can do today. ;)
-
-# Chapter III
 ### Exercise 00 – Work with Classes
 
 Exercise 00: Work with Classes ||
@@ -150,7 +102,6 @@ Method returned:
 - In a program session, you can interact with only a single class, modify a single field of its object, and call a single method.
 - You can use the throws operator.
 
-# Chapter IV
 ### Exercise 01 – Annotations – SOURCE
 
 Exercise 01: Annotations – SOURCE ||
@@ -187,7 +138,6 @@ Then, it shall be used as a base to generate "user_form.html" file with the foll
 - The project structure is at the discretion of the developer.
 - To handle annotations correctly, we recommend using special settings of maven-compiler-plugin and auto-service dependency on com.google.auto.service.
 
-# Chapter V
 ### Exercise 02 – ORM
 
 Exercise 02: ORM ||

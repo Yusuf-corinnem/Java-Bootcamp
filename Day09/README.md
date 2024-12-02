@@ -1,64 +1,6 @@
 # Day 09 — Java bootcamp
 ### Sockets
 
-*Takeaways: Today you will implement the basic mechanism of a client/server application based on Java—Sockets API.*
-
-
-💡 [Tap here](https://new.oprosso.net/p/4cb31ec3f47a4596bc758ea1861fb624) **to leave your feedback on the project**. It's anonymous and will help our team make your educational experience better. We recommend completing the survey immediately after the project.
-
-# Contents
-1. [Chapter I](#chapter-i) \
-    1.1. [Preamble](#preamble)
-2. [Chapter II](#chapter-ii) \
-    2.1. [General Rules](#general-rules)
-3. [Chapter III](#chapter-iii) \
-    3.1. [Exercise 00 — Registration](#exercise-00-registration)
-4. [Chapter IV](#chapter-iv) \
-    4.1. [Exercise 01 — Messaging](#exercise-01-messaging)
-5. [Chapter V](#chapter-v) \
-    5.1. [Exercise 02 — Rooms](#exercise-02-rooms)
-
-# Chapter I
-### Preamble
-Client/server interaction is the backbone of modern systems. The server performs a large amount of business logic and information storage. As a result, the client application load is significantly reduced.
-
-Decomposing the logic into server and client components allows for a flexible overall system architecture where server and client implementations are as independent as possible.
-
-Client and server communicate using a variety of protocols described as different layers in the OSI network model:
-
-Layer |	Example
----|---
-7.<font> Application |	HTTP
-6.<font> Representation |	ASCII
-5.<font> Session |	RPC
-4.<font> Transport |	TCP, UDP
-3.<font> Network |	IPv4
-2.<font> Channel |	Ethernet, DSL
-1.<font> Physical |	USB, "twisted pair"
-
-![A Joke](misc/images/joke.png)
-
-# Chapter II
-### General Rules
-- Use this page as your only reference. Do not listen to rumors and speculations about how to prepare your solution.
-- There is only one Java version for you, 1.8. Make sure you have the compiler and interpreter for this version installed on your machine.
-- You can use the IDE to write and debug the source code.
-- The code is more often read than written. Carefully read the [document](https://www.oracle.com/technetwork/java/codeconventions-150003.pdf) where code formatting rules are given. When performing any task, make sure you follow the generally accepted [Oracle Standards](https://www.oracle.com/java/technologies/javase/codeconventions-namingconventions.html).
-
-- Comments are not allowed in the source code of your solution. They make it difficult to read the code.
-- Be aware of the permissions of your files and directories.
-- Your solution must be in your GIT repository to be evaluated.
-- Your solutions will be evaluated by your fellow bootcampers.
-- You should not leave any files in your src directory other than those explicitly specified in the exercise instructions. It is recommended that you modify your .gitignore to avoid accidents.
-- If you need accurate output in your programs, it is forbidden to display precalculated output instead of running the exercise correctly.
-- Got a question? Ask your neighbor to the right. Otherwise, try your neighbor on the left.
-- Your reference guide: peers / Internet / Google. And one more thing. For every question you have, there's an answer on Stackoverflow. Learn how to ask questions properly.
-- Read the examples carefully. They may require things not specified in the subject.
-- Use System.out for output.
-- And may the Force be with you!
-- Never leave for tomorrow what you can do today. ;)
-
-# Chapter III
 ### Exercise 00 — Registration
 
 Exercise 00: Registration ||
@@ -127,7 +69,6 @@ Server application architecture (client application is at the discretion of the 
                     - db.properties
         - pom.xml
 
-# Chapter IV
 ### Exercise 01 – Messaging
 
 Exercise 01: Messaging ||
@@ -166,7 +107,6 @@ Each message is stored in the database and contains the following information:
 **Note**:
 - For comprehensive testing, run multiple jar files of the client application.
 
-# Chapter V
 ### Exercise 02 — Rooms
 
 Exercise 02: Rooms ||

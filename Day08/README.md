@@ -1,60 +1,6 @@
 # Day 08 — Java bootcamp
 ### Spring
 
-*Takeaways: Today you will learn about enterprise-level Java development and the basics of the Spring framework.*
-
-💡 [Tap here](https://new.oprosso.net/p/4cb31ec3f47a4596bc758ea1861fb624) **to leave your feedback on the project**. It's anonymous and will help our team make your educational experience better. We recommend completing the survey immediately after the project.
-
-# Contents
-1. [Chapter I](#chapter-i) \
-    1.1. [Preamble](#preamble)
-2. [Chapter II](#chapter-ii) \
-    2.1. [General Rules](#general-rules)
-3. [Chapter III](#chapter-iii) \
-    3.1. [Exercise 00 – Spring Context](#exercise-00-spring-context)
-4. [Chapter IV](#chapter-iv) \
-    4.1. [Exercise 01 – JdbcTemplate](#exercise-01-jdbctemplate)
-5. [Chapter V](#chapter-v) \
-    5.1. [Exercise 02 – AnnotationConfig](#exercise-02-annotationconfig)
-
-# Chapter I
-### Preamble
-The Spring Framework is an integral part of most Java-based enterprise systems. This framework makes it much easier to configure applications and relate components to each other. As a result, a developer can fully focus on implementing business logic.
-
-Spring's operating principle is completely based on DI/IoC patterns, which you should learn before using this technology.
-
-The central concept in the Spring framework is a bean (component), which represents an object within an ApplicationContext container. The container also creates connections between beans.
-
-There are several ways to configure beans:
-1. Using an xml file.
-2. Using a Java configuration (configuring with annotations).
-3. Combined configuration.
-
-XML configuration allows you to change the behavior of your application without reassembling it. In turn, Java configuration makes code more developer friendly.
-
-![Sakura](misc/images/sakura.png)
-
-# Chapter II
-### General Rules
-- Use this page as your only reference. Do not listen to rumors and speculations about how to prepare your solution.
-- There is only one Java version for you, 1.8. Make sure you have the compiler and interpreter for this version installed on your machine.
-- You can use the IDE to write and debug the source code.
-- The code is more often read than written. Carefully read the [document](https://www.oracle.com/technetwork/java/codeconventions-150003.pdf) where code formatting rules are given. When performing any task, make sure you follow the generally accepted [Oracle Standards](https://www.oracle.com/java/technologies/javase/codeconventions-namingconventions.html).
-
-- Comments are not allowed in the source code of your solution. They make it difficult to read the code.
-- Be aware of the permissions of your files and directories.
-- Your solution must be in your GIT repository to be evaluated.
-- Your solutions will be evaluated by your fellow bootcampers.
-- You should not leave any files in your src directory other than those explicitly specified in the exercise instructions. It is recommended that you modify your .gitignore to avoid accidents.
-- If you need accurate output in your programs, it is forbidden to display precalculated output instead of running the exercise correctly.
-- Got a question? Ask your neighbor to the right. Otherwise, try your neighbor on the left.
-- Your reference guide: peers / Internet / Google. And one more thing. For every question you have, there's an answer on Stackoverflow. Learn how to ask questions properly.
-- Read the examples carefully. They may require things not specified in the subject.
-- Use System.out for output.
-- And may the Force be with you!
-- Never leave for tomorrow what you can do today. ;)
-
-# Chapter III
 ### Exercise 00 — Spring Context
 
 Exercise 00: Spring Context ||
@@ -106,7 +52,6 @@ public class Main {
 }
 ```
 
-# Chapter IV
 ### Exercise 01 — JdbcTemplate
 
 Exercise 01: JdbcTemplate ||
@@ -175,7 +120,6 @@ System.out.println(usersRepository.findAll());
                 -   context.xml
     -   pom.xml
 
-# Chapter V
 ### Exercise 02 — AnnotationConfig
 
 Exercise 02: AnnotationConfig ||

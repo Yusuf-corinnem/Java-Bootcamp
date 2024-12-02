@@ -1,64 +1,6 @@
 # Day 06 — Java bootcamp
 ### JUnit/Mockito
 
-*Takeaways: Today you will learn the basics of module and integration testing.*
-
-💡 [Tap here](https://new.oprosso.net/p/4cb31ec3f47a4596bc758ea1861fb624) **to leave your feedback on the project**. It's anonymous and will help our team make your educational experience better. We recommend completing the survey immediately after the project.
-
-# Contents
-1. [Chapter I](#chapter-i) \
-  1.1. [Preamble](#preamble)
-2. [Chapter II](#chapter-ii) \
-  2.1. [General Rules](#general-rules)
-3. [Chapter III](#chapter-iii) \
-  3.1. [Rules of the Day](#rules-of-the-day)
-4. [Chapter IV](#chapter-iv) \
-  4.1. [Exercise 00 — First Tests](#exercise-00-first-tests)
-5. [Chapter V](#chapter-v) \
-  5.1. [Exercise 01 — Embedded DataBase](#exercise-01-embedded-database)
-6. [Chapter VI](#chapter-vi) \
-  6.1. [Exercise 02 — Test for JDBC Repository](#exercise-02-test-for-jdbc-repository)
-7. [Chapter VII](#chapter-vii) \
-  7.1. [Exercise 03 — Test for Service](#exercise-03-test-for-service)
-
-# Chapter I
-### Preamble
-Module and integration testing allows a programmer to ensure the correct operation of the programs they create. These tests are performed automatically.
-
-Thus, your goal is not only to write correct code, but also to create code to check the validity of your implementation.
-
-Module tests in Java are classes that contain multiple test methods for public methods of classes under test. Each module test class checks the functionality of only a single class. Such tests allow you to pinpoint errors. To perform tests without specific dependencies, stub objects with temporary implementations are used.
-
-Unlike module tests, integration tests allow testing bundles of different components.
-
-Here are some best practices for module and integration testing:
-1. Use appropriate names for test methods.
-2. Consider different situations.
-3. Make sure that tests cover at least 80% of the code.
-4. Each test method should contain a small amount of code and be executed quickly.
-5. Test methods must be isolated from each other and have no side effects.
-
-# Chapter II
-### General Rules
-- Use this page as your only reference. Do not listen to rumors and speculations about how to prepare your solution.
-- There is only one Java version for you, 1.8. Make sure you have the compiler and interpreter for this version installed on your machine.
-- You can use the IDE to write and debug the source code.
-- The code is more often read than written. Carefully read the [document](https://www.oracle.com/technetwork/java/codeconventions-150003.pdf) where code formatting rules are given. When performing any task, make sure you follow the generally accepted [Oracle Standards](https://www.oracle.com/java/technologies/javase/codeconventions-namingconventions.html).
-
-- Comments are not allowed in the source code of your solution. They make it difficult to read the code.
-- Be aware of the permissions of your files and directories.
-- Your solution must be in your GIT repository to be evaluated.
-- Your solutions will be evaluated by your fellow bootcampers.
-- You should not leave any files in your src directory other than those explicitly specified in the exercise instructions. It is recommended that you modify your .gitignore to avoid accidents.
-- If you need accurate output in your programs, it is forbidden to display precalculated output instead of running the exercise correctly.
-- Got a question? Ask your neighbor to the right. Otherwise, try your neighbor on the left.
-- Your reference guide: peers / Internet / Google. And one more thing. For every question you have, there's an answer on Stackoverflow. Learn how to ask questions properly.
-- Read the examples carefully. They may require things not specified in the subject.
-- Use System.out for output.
-- And may the Force be with you!
-- Never leave for tomorrow what you can do today. ;)
-
-# Chapter III
 ### Rules of the Day
 - Use the JUnit 5 framework in all tasks.
 - Use the following dependencies and plugins to ensure proper operation:
@@ -71,7 +13,6 @@ Here are some best practices for module and integration testing:
 
 ![test](misc/images/test.png)
 
-# Chapter IV
 ### Exercise 00 — First Tests
 
 Exercise 00: First Tests ||
@@ -126,7 +67,6 @@ We also need to create the NumberWorkerTest class, which implements the module's
                 -	data.csv
     - pom.xml
 
-# Chapter V
 ### Exercise 01 — Embedded DataBase
 
 Exercise 01: Embedded DataBase ||
@@ -167,7 +107,6 @@ Also create an EmbeddedDataSourceTest class. In this class, implement the init()
                 -	data.sql
     - pom.xml
 
-# Chapter VI
 ### Exercise 02 — Test for JDBC Repository
 
 Exercise 02: Test for JDBC Repository ||
@@ -231,7 +170,6 @@ class ProductsRepositoryJdbcImplTest {
                 -	data.sql
     - pom.xml
 
-# Chapter VII
 ### Exercise 03 — Test for Service
 
 Exercise 03: Test for Service ||
